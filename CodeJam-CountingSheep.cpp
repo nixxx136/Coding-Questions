@@ -42,7 +42,7 @@ int main (int argc, const char * argv[])
 {
     //    Solution sol;
     ifstream in("");
-    ofstream out("/Users/Xiangyu/Desktop/Gitfold/Test-Programming-Languages/CPP/CPP/output.txt");
+    ofstream out("/Users/Xiangyu/Desktop/output.txt");
     if (!in.is_open() || !out.is_open()) {
         cout << "Error opening file" << endl;
         exit (1);
